@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Time</title>
+
+	<script type="text/javascript">
+		function displayTime(){
+			var dateTime = new Date();
+			var hrs = dateTime.getHours();
+			var min = dateTime.getMinutes();
+			var sec = dateTime.getSeconds();
+			var session = document.getElementById('session');
+
+			if (hrs>=12) {
+				session.innerHTML='PM';
+			}else{
+				session.innerHTML='AM';
+			}
+
+			if (hrs>12) {
+				hrs = hrs - 12;
+			}			
+
+			document.getElementById('hours').innerHTML=  hrs;
+			document.getElementById('minutes').innerHTML=  min;
+			document.getElementById('seconds').innerHTML=  sec;
+			
+
+		}
+		setInterval(displayTime,10);
+
+	</script>
+</head>
+<body>
+	<div>
+		<span id="hours">00</span>
+		<span >:</span>
+		<span id="minutes">00</span>
+		<span>:</span>
+		<span id="seconds">00</span>
+		<span id="session">AM</span>
+	</div>
+
+	<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+setInterval(d,100);
+</script>
+</body>
+</html>

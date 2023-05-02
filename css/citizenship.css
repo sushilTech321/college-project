@@ -1,0 +1,130 @@
+body{
+	background-color: rgb(237, 240, 245);
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*------------logo and title section-------------*/
+
+ .navbg #logo img{
+  transform: translate(610px);
+  margin-top: 20px;
+  width: 120px;
+  background-color: transparent;
+}
+
+ .container-title-50 span h4{
+	transform: translate(530px,10px);
+	font-family: 'Bitter', serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	word-break:1px;
+	overflow: hidden;
+	color: blueviolet;
+	font-weight: bolder;
+}
+.navbg{
+	background-image: url('../img/eve.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	position: relative;
+	z-index: -1;
+
+}
+
+.navbg h4{
+	text-align: center;
+	color: blueviolet;
+
+}
+
+/*------------logo and title section end-------------*/
+
+
+hr{
+	opacity:1;
+	color: rgb(63, 144, 181);
+}
+
+
+/*Registration form section*/
+	
+	.rform-heading h2{
+		padding: 15px;
+		text-transform: capitalize;
+		text-align: center;
+		font-weight: bold;
+		color: blueviolet;
+	}	
+
+/*demographic details*/
+	.demographic h4{
+		text-align: center;
+		background: rgb(146, 38, 221);
+		color: #f5f8f8;
+		letter-spacing: 1px;
+		word-spacing: 10px;
+	}
+
+/*general info section*/
+
+
+/*.geninfo label{
+	margin: 5px;
+	margin-inline: 52px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.geninfo input{
+	width: 330px;
+}
+
+/*dob section*/
+.geninfo .dob label{
+	transform: translate(550px,-22px);		
+}
+.geninfo .dob input{
+	transform: translate(590px,-25px);
+	width: 120px;	
+}
+
+.geninfo .age label{
+	transform: translate(0px,-10px);
+}
+
+.geninfo .age input{
+	transform: translate(45px,-10px);
+}
+
+/*gender section*/
+.geninfo .Gender{
+	margin-left: 550px;
+	transform: translate(0px,-50px);
+
+}
+.geninfo .Gender select{
+	margin-left: 18px;
+	transform: translate(0px,0px);
+	width: 330px;
+
+}
+*/
+ .username input{
+	width: 500px;
+}
+
+
+.username{
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+.dr{
+	font-family: 'Work Sans', sans-serif;	
+}

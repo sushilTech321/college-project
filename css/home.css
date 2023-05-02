@@ -1,0 +1,127 @@
+body{
+	background-color: rgb(237, 240, 245);
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*------------logo and title section-------------*/
+	
+
+ .sContent #logo img{
+  transform: translate(480px);
+  margin-top: 20px;
+  width: 120px;
+  background-color: rgb(237, 240, 245);
+  background-blend-mode: multiply;
+}
+
+ .container-title-50 span h4{
+	transform: translate(530px,10px);
+	font-family: 'Bitter', serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	word-break:1px;
+	overflow: hidden;
+	color: blueviolet;
+	font-weight: bolder;
+}
+
+/*------------logo and title section end-------------*/
+
+hr{
+	opacity:1;
+	color: rgb(63, 144, 181);
+}
+
+/*----------nav bar start-----------*/
+	
+
+	.navbar-sec nav div ul li{
+		display: inline-block;
+		margin-left: 20px;
+		text-transform: uppercase;
+		font-weight: bolder;
+		letter-spacing: 1px;
+		line-height: 1;
+		font-family: 'Source Serif Pro', serif;	
+
+		}
+
+	.navbar-sec nav div ul li .dropbtn{
+
+		text-transform: uppercase;
+		font-weight: bolder;
+		letter-spacing: 1px;
+		border: none;
+		color: yellow;
+		font-family: 'Source Serif Pro', serif;	
+	}
+			
+	.navbar-sec nav div ul li a{
+		text-decoration: none;
+		color: yellow;
+	}	
+
+	.navbar-sec nav div ul li a:hover{
+		text-decoration: underline;
+	}	
+
+
+	.navbar-sec nav{
+		height: 50px;
+		width: 1370px;
+		background-color: rgb(212, 214, 217);
+	}
+
+/*----------nav bar end-----------*/
+
+.c-content{
+	position: absolute;
+	width: inherit;
+	height: auto;
+	transform: translateY(-50%);
+}
+
+
+
+/* Hoverable dropdown content */
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  width: 350px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .drpb1{
+  color: rgb(54, 92, 217);
+  padding: 12px 16px;
+  font-family: 'Bitter', serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  width: 350px;
+
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
